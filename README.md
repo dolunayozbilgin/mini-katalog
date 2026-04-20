@@ -1,17 +1,57 @@
-# mini_katalog
+# 🛍️ Mini Katalog Uygulaması
 
-A new Flutter project.
+Flutter ile geliştirilmiş, modern ve kullanıcı dostu bir ürün katalog uygulaması.
 
-## Getting Started
+## 📱 Ekran Görüntüleri
 
-This project is a starting point for a Flutter application.
+| Ana Sayfa | Ürün Detayı | Sepet |
+|-----------|-------------|-------|
+| ![Ana Sayfa](screenshots/home.png) | ![Detay](screenshots/detail.png) | ![Sepet](screenshots/cart.png) |
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Özellikler
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- 🔍 Ürün arama ve filtreleme
+- �� GridView ile ürün listeleme
+- 📄 Ürün detay sayfası
+- 🛒 Sepet sistemi (ürün ekleme, çıkarma, checkout)
+- 🔀 Sayfa geçişleri (Named Routes + Route Arguments)
+- 💜 Modern ve temiz UI tasarımı
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Kullanılan Teknolojiler
+
+- Flutter 3.41.7
+- Dart
+- Material Design 3
+
+## 📁 Proje Yapısı
+
+lib/
+├── main.dart
+├── models/
+│   ├── product.dart
+│   └── product_data.dart
+├── screens/
+│   ├── home_screen.dart
+│   ├── detail_screen.dart
+│   └── cart_screen.dart
+└── widgets/
+    └── product_card.dart
+
+## 🚀 Çalıştırma Adımları
+
+1. Flutter SDK kurulu olmalıdır
+2. Repoyu klonlayın:
+   git clone https://github.com/dolunayozbilgin/mini-katalog.git
+3. Proje klasörüne girin:
+   cd mini-katalog
+4. Bağımlılıkları yükleyin:
+   flutter pub get
+5. Uygulamayı çalıştırın:
+   flutter run
+
+## 📋 Gereksinimler
+
+- Flutter SDK 3.0+
+- Dart SDK
+- Android Studio (Emulator için)
+- VS Code
