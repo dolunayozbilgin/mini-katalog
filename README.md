@@ -25,6 +25,7 @@ Flutter ile geliştirilmiş, modern ve kullanıcı dostu bir ürün katalog uygu
 
 ## 📁 Proje Yapısı
 
+```
 lib/
 ├── main.dart
 ├── models/
@@ -36,6 +37,7 @@ lib/
 │   └── cart_screen.dart
 └── widgets/
     └── product_card.dart
+```
 ## 🚀 Çalıştırma Adımları
 
 1. Flutter SDK kurulu olmalıdır
